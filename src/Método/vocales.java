@@ -17,8 +17,15 @@ public class vocales {
     JOptionPane.showMessageDialog(null,"La frase " +palabra 
             + "\n tiene " + contador + " vocales");
     }
+    
+    void contador() {
+        for(int i=0;i<=20;i++){
+            System.out.println(i);  
+        }
+    }
     public static void main(String[] args) {
         vocales imprimir=new vocales();
         imprimir.contarvolcales();
+        imprimir.contador();
     }
 }
